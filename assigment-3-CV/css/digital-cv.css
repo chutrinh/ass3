@@ -1,0 +1,55 @@
+body {
+  margin: auto;
+  padding: auto;
+}
+.goals,
+.team,
+.timeline,
+.scopes,
+.primary {
+  border-radius: 5px;
+}
+p {
+  margin: 5px;
+}
+.p p {
+  margin: 15px;
+}
+.margin,
+.lorem {
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.block-ctn {
+  display: block;
+}
+.block-ctn p:first-child {
+  font-weight: bolder;
+  font-size: larger;
+}
+.items {
+  display: block;
+}
+.goal {
+  font-weight: bolder;
+}
+.flag {
+  margin: 30px;
+}
+.hr-item {
+  height: 1px;
+  border: 1px dashed aqua;
+}
+/* 
+.col1,
+.col2,
+.col3 {
+  height: 100%;
+} */
+@media (width <960px) {
+  .horial {
+    display: none;
+  }
+}

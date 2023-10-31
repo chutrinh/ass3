@@ -1,0 +1,68 @@
+@media (max-width: 576px) {
+  #banner {
+    padding: 5px;
+    /* display: none; */
+  }
+  .textBanner h1,
+  span {
+    font-size: smaller;
+    text-shadow: 0.1em 0.1em #222;
+  }
+  section .container {
+    display: block;
+    margin: 10px;
+    height: auto;
+  }
+  .container a {
+    justify-content: left;
+    padding: 5px;
+  }
+  .name-user,
+  .mail-user,
+  .project-user,
+  .information-user,
+  .doc-user {
+    border: none;
+  }
+
+  section .container1,
+  section .container2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  section .container2 {
+    padding: 50px 0 50px 0 !important;
+    width: 100%;
+  }
+  section .container3 {
+    display: grid;
+    padding: 50px 0 50px 0 !important;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .certificate-content,
+  .project-content {
+    display: block;
+  }
+  .project-items {
+    margin-bottom: 40px;
+  }
+  section > .container4 {
+    display: block;
+    padding: 50px 0 50px 0 !important;
+  }
+  section > .container5 {
+    width: 50%;
+    display: block;
+  }
+  .fb,
+  .gh,
+  .li {
+    margin: 10px auto;
+    padding: 10px 0;
+  }
+  .name-user {
+    display: none;
+  }
+}

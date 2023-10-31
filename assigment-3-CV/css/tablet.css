@@ -1,0 +1,61 @@
+@media screen and (max-width: 820px) {
+  #banner {
+    padding: 5px;
+  }
+  .textBanner h1,
+  span {
+    font-size: smaller;
+    text-shadow: 0.1em 0.1em #222;
+  }
+
+  section .container1,
+  section .container2 {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  section .container2 {
+    padding: 50px 0 50px 0 !important;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+  }
+  section .container3 {
+    /* display: block; */
+    padding: 50px 0 50px 0 !important;
+    width: 100%;
+  }
+
+  .project-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+  }
+  .certificate-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .verticalHr {
+    display: none;
+  }
+  .project-items {
+    margin-bottom: 40px;
+  }
+  section > .container4 {
+    display: block;
+    padding: 50px 0 50px 0 !important;
+  }
+  section > .container5 {
+    width: 50%;
+    display: grid;
+    gap: 30px;
+  }
+  .fb,
+  .gh,
+  .li {
+    margin: 10px auto;
+    padding: 10px 0;
+  }
+  .name-user {
+    display: none;
+  }
+}
